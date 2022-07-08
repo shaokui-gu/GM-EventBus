@@ -95,14 +95,17 @@ extension GM {
         GMEventBus.postToMainThread(name, sender: sender, userInfo: userInfo)
     }
     
+    @discardableResult
     public static func on(_ target: AnyObject, name: String, sender: Any? = nil, queue: OperationQueue?, handler: @escaping ((Notification?) -> Void)) -> NSObjectProtocol {
         GMEventBus.on(target, name: name, sender: sender, queue: queue, handler: handler)
     }
     
+    @discardableResult
     public static func onMainThread(_ target: AnyObject, name: String, sender: Any? = nil, handler: @escaping ((Notification?) -> Void)) -> NSObjectProtocol {
         GMEventBus.onMainThread(target, name: name, sender: sender, handler: handler)
     }
     
+    @discardableResult
     public static func onBackgroundThread(_ target: AnyObject, name: String, sender: Any? = nil, handler: @escaping ((Notification?) -> Void)) -> NSObjectProtocol {
         GMEventBus.onBackgroundThread(target, name: name, sender: sender, handler: handler)
     }

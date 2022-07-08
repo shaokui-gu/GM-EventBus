@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "GM+EventBus"
-  s.version      = "0.0.2"
+  s.version      = "0.0.3"
   s.summary      = "A EventBus Extension for GM"
   s.homepage     = "https://github.com/shaokui-gu/GM-EventBus"
   s.license      = 'MIT'
