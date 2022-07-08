@@ -1,0 +1,25 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "GM",
+        "repositoryURL": "https://github.com/shaokui-gu/GM.git",
+        "state": {
+          "branch": "main",
+          "revision": "18906dca75f46850744722acaf8b6daf2815b3f5",
+          "version": null
+        }
+      },
+      {
+        "package": "OpenUDID",
+        "repositoryURL": "https://github.com/shaokui-gu/OpenUDID.git",
+        "state": {
+          "branch": null,
+          "revision": "6ce92d2d9e47ea78626f44196ef861903c75af1c",
+          "version": "1.0.1"
+        }
+      }
+    ]
+  },
+  "version": 1
+}

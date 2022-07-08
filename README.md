@@ -1,2 +1,3 @@
-# GM-EventBus
-EventBus
+# GM+EventBus
+
+A description of this package.
